@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wjsw.mapper.FleetExamMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wjsw.system.domain.entity.FleetExam">
+        <id column="id" property="id" />
+        <result column="remark" property="remark" />
+        <result column="create_by" property="createBy" />
+        <result column="create_time" property="createTime" />
+        <result column="update_by" property="updateBy" />
+        <result column="update_time" property="updateTime" />
+        <result column="del_flag" property="delFlag" />
+        <result column="collection_and_transportation_fleet_id" property="collectionAndTransportationFleetId" />
+        <result column="grade" property="grade" />
+        <result column="collection_alarm_count" property="collectionAlarmCount" />
+        <result column="assess_count" property="assessCount" />
+        <result column="drive_alarm_count" property="driveAlarmCount" />
+        <result column="timeout_count" property="timeoutCount" />
+        <result column="name" property="name" />
+        <result column="weight_alarm_count" property="weightAlarmCount" />
+    </resultMap>
+
+</mapper>
